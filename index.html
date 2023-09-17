@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <script async src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+<!--      <input class="display" type="number" value="0">-->
+      <div class="display">0</div>
+      <div class="buttons">
+          <button class="btn operator" data-value="AC">AC</button>
+          <button class="btn operator" data-value="+/-">+/-</button>
+          <button class="btn operator" data-value="%">%</button>
+          <button class="btn operator" data-value="/">/</button>
+
+          <button class="btn" data-value="7">7</button>
+          <button class="btn" data-value="8">8</button>
+          <button class="btn" data-value="9">9</button>
+          <button class="btn operator" data-value="*">*</button>
+
+          <button class="btn" data-value="4">4</button>
+          <button class="btn" data-value="5">5</button>
+          <button class="btn" data-value="6">6</button>
+          <button class="btn operator" data-value="-">-</button>
+
+          <button class="btn" data-value="1">1</button>
+          <button class="btn" data-value="2">2</button>
+          <button class="btn" data-value="3">3</button>
+          <button class="btn operator" data-value="+">+</button>
+
+          <button class="btn btn-zero" data-value="0">0</button>
+<!--          <button class="btn" data-value="00">00</button>-->
+          <button class="btn" data-value=".">.</button>
+          <button class="btn operator" data-value="=">=</button>
+      </div>
+    </div>
+    <div class="bubbles">
+      <span class="one"></span>
+      <span class="two"></span>
+      <span class="three"></span>
+      <span class="four"></span>
+      <span class="five"></span>
+      <span class="six"></span>
+      <span class="seven"></span>
+  </div>
+    <div class="flag">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+            <path id="circleShape" class="circle__shape" fill="none" d="M 100,40 C195,40 195,180
+            100,180 M 100,180 C5,180 5,40 100,40"></path>
+            <text class="circle__text">
+                <textPath href="#circleShape">Karabakh is Azerbaijan!</textPath>
+            </text>
+        </svg>
+    </div>
+</body>
+</html>
